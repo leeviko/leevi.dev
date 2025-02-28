@@ -10,6 +10,7 @@ export default function Project({
   code,
   tags,
   featured,
+  pictures,
 }) {
   return (
     <div
@@ -27,7 +28,8 @@ export default function Project({
         <p className={styles.projectDescription}>{description}</p>
         <p className={styles.projectLinks}>
           {link && <a href={link}>Link</a>}
-          {code && <a href={code}>Code</a>}
+          {code && !pictures && <a href={code}>Code</a>}
+          {code && pictures && <a href={code}>Code w/Pictures</a>}
         </p>
       </div>
     </div>

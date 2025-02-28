@@ -91,6 +91,10 @@
   margin: 0.25rem 0;
 }
 
+.projectItemContent p {
+  margin: 0.75rem 0;
+}
+
 .projectTags {
   display: flex;
   flex-wrap: wrap;
@@ -109,7 +113,7 @@
 }
 
 .projectLinks a:first-child {
-  margin-right: 0.5rem;
+  margin-right: 1rem;
 }
 
 @media screen and (max-width: 450px) {

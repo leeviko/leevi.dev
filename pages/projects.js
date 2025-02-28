@@ -26,6 +26,7 @@ export default function Projects() {
       link: 'https://planit.leevi.dev/',
       code: 'https://github.com/leeviko/planit',
       featured: true,
+      pictures: true,
     },
     {
       title: 'Quizitor',
@@ -34,6 +35,7 @@ export default function Projects() {
       link: 'https://quiz.leevi.dev/',
       code: 'https://github.com/leeviko/quizitor',
       featured: true,
+      pictures: true,
     },
     {
       title: 'blog.leevi.dev',
@@ -52,6 +54,7 @@ export default function Projects() {
       link: '',
       code: 'https://github.com/leeviko/blog.leevi.dev',
       featured: true,
+      pictures: true,
     },
     {
       title: 'Eveloper',
@@ -61,6 +64,7 @@ export default function Projects() {
       tags: ['React', 'Redux', 'Express', 'PostgreSQL'],
       link: '',
       code: 'https://github.com/leeviko/eveloper',
+      pictures: true,
     },
     {
       title: 'leevi.dev',
@@ -150,6 +154,7 @@ export default function Projects() {
                   link={item.link}
                   tags={item.tags}
                   featured={item.featured ?? false}
+                  pictures={item.pictures ?? false}
                 />
               )
           )}
