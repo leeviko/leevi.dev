@@ -27,11 +27,21 @@ const About = () => {
         </p>
       </div>
       <div className={styles.buttons}>
-        <button className="btn">
+        <a
+          href="https://github.com/leeviko"
+          className="btn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Image src="/icons/github.svg" width={20} height={20} alt="Github" />
           <span>GitHub</span>
-        </button>
-        <button className="btn">
+        </a>
+        <a
+          href="https://www.linkedin.com/in/leevi-kotilainen"
+          className="btn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Image
             src="/icons/linkedin.svg"
             width={20}
@@ -39,7 +49,7 @@ const About = () => {
             alt="Linkedin"
           />
           <span>LinkedIn</span>
-        </button>
+        </a>
         <Link
           className={`btn ${styles.cv}`}
           href="/files/CV.pdf"

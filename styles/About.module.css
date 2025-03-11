@@ -25,7 +25,7 @@
   display: flex;
 }
 
-.buttons button {
+.buttons a {
   margin-right: 1rem;
 }
 
