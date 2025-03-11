@@ -33,3 +33,7 @@
   padding-left: 2rem;
   padding-right: 2rem;
 }
+
+.text > span {
+  background-color: rgba(58, 60, 61, 0.5);
+}

@@ -10,9 +10,7 @@ const About = () => {
         <p className={styles.subtitle}>
           Tietojenkäsittelytieteiden opiskelija Oulun yliopistossa,
         </p>
-        <p className={styles.subtitle}>
-          sekä junior full stack kehittäjä (7+ kuukautta työkokemusta)
-        </p>
+        <p className={styles.subtitle}>sekä Full Stack kehittäjä</p>
       </div>
       <div className={styles.textContainer}>
         <p className={styles.text}>
@@ -21,9 +19,10 @@ const About = () => {
           Erityisesti olen keskittynyt full stack web-kehitykseen.
         </p>
         <p className={styles.text}>
-          Vahvimmat osaamisalueeni ovat React ja Node.js, ja niiden parissa
-          minulla onkin eniten kokemusta. Nautin modernien web-sovellusten
-          rakentamisesta ja teknologioiden syvällisestä ymmärtämisestä.
+          Vahvimmat osaamisalueeni ovat <span>React</span> ja{' '}
+          <span>Node.js</span>, ja niiden parissa minulla onkin eniten
+          kokemusta. Nautin modernien web-sovellusten rakentamisesta ja
+          teknologioiden syvällisestä ymmärtämisestä.
         </p>
       </div>
       <div className={styles.buttons}>
