@@ -1,0 +1,35 @@
+.container {
+  margin-top: 7rem;
+  max-width: 580px;
+}
+
+.subtitleContainer {
+  margin: 1.5rem 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.subtitle {
+  font-size: 1.25rem;
+}
+
+.textContainer {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.textContainer .text:first-child {
+  margin-bottom: 1.5rem;
+}
+
+.buttons {
+  margin-top: 1.5rem;
+  display: flex;
+}
+
+.buttons button {
+  margin-right: 1rem;
+}
+
+.cv {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}

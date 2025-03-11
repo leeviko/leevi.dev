@@ -1,0 +1,19 @@
+.container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.skills h3 {
+  font-family: var(--nunito);
+  text-transform: uppercase;
+  letter-spacing: 5%;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.skills span {
+  margin-right: 0.5rem;
+  margin-top: 0.5rem;
+}

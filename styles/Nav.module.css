@@ -1,0 +1,38 @@
+.nav {
+  position: fixed;
+  display: flex;
+  justify-content: center; /* Centers content inside nav */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--background);
+  padding: 1rem 0;
+  z-index: 2;
+  width: 100%;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.nav a {
+  border-radius: 5px;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  font-family: var(--nunito);
+  color: white;
+  border: none;
+  background: none;
+  transition: background-color 0.15s;
+}
+
+.nav a:hover {
+  cursor: pointer;
+  background-color: var(--accent);
+}
+
+.nav .link.active a {
+  background-color: var(--accent);
+}
