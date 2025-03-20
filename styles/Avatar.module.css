@@ -1,0 +1,57 @@
+.avatar {
+  position: absolute;
+  left: 3rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(21, 21, 21);
+}
+
+.avatar img {
+  pointer-events: none;
+  border-radius: 50%;
+  transition: transform 0.15s, opacity 0.15s;
+}
+
+.avatar.hover img {
+  opacity: 0;
+  transform: scale(0);
+}
+.avatar.noHover img {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.avatar h1 {
+  pointer-events: none;
+  user-select: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.15s, opacity 0.15s;
+}
+
+.avatar.noHover h1 {
+  transform: scale(0) translate(-50%, -50%);
+  opacity: 0;
+}
+
+.avatar.hover h1 {
+  transform: scale(1) translate(-50%, -50%);
+  opacity: 1;
+}
+
+@media screen and (max-width: 850px) {
+  .avatar {
+    margin-left: 1rem;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .avatar {
+    display: none;
+  }
+}

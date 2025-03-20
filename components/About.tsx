@@ -16,13 +16,14 @@ const About = () => {
         <p className={styles.text}>
           Aloitin ohjelmoinnin vuonna 2019, ja siitä lähtien olen jatkuvasti
           kehittänyt taitojani sekä tutustunut uusiin teknologioihin.
-          Erityisesti olen keskittynyt full stack web-kehitykseen.
+          Erityisesti olen keskittynyt full stack web-kehitykseen. Nautin
+          modernien web-sovellusten rakentamisesta ja teknologioiden
+          syvällisestä ymmärtämisestä.
         </p>
         <p className={styles.text}>
           Vahvimmat osaamisalueeni ovat <span>React</span> ja{' '}
           <span>Node.js</span>, ja niiden parissa minulla onkin eniten
-          kokemusta. Nautin modernien web-sovellusten rakentamisesta ja
-          teknologioiden syvällisestä ymmärtämisestä.
+          kokemusta.
         </p>
       </div>
       <div className={styles.buttons}>

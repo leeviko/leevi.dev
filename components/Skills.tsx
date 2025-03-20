@@ -1,15 +1,5 @@
+import { backend, devops, frontend } from '@/lib/data';
 import styles from '@/styles/Skills.module.css';
-
-const frontend = ['React', 'Redux', 'Next.js', 'TypeScript', 'HTML/CSS'];
-const backend = [
-  'Node.js',
-  'Express',
-  'Prisma',
-  'PostgreSQL',
-  'TypeORM',
-  'PHP',
-];
-const devops = ['Git', 'Linux', 'Docker', 'Nginx', 'CI/CD', 'GitHub Actions'];
 
 const Skills = () => {
   return (

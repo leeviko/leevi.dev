@@ -1,6 +1,6 @@
 import styles from '@/styles/ProjectCard.module.css';
 import Image from 'next/image';
-import { Project } from './Projects';
+import { Project } from '@/lib/data';
 
 type Props = Project;
 
