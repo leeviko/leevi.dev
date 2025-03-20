@@ -1,5 +1,4 @@
 import styles from '@/styles/Nav.module.css';
-import Image from 'next/image';
 import Link from 'next/link';
 import Avatar from './Avatar';
 

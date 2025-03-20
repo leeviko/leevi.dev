@@ -1,7 +1,7 @@
 .nav {
   position: fixed;
   display: flex;
-  justify-content: center; /* Centers content inside nav */
+  justify-content: center;
   left: 50%;
   transform: translateX(-50%);
   background-color: var(--background);
