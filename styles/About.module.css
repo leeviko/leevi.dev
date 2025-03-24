@@ -37,3 +37,9 @@
 .text > span {
   background-color: rgba(58, 60, 61, 0.5);
 }
+
+@media screen and (max-width: 500px) {
+  .container {
+    margin-top: 6rem;
+  }
+}

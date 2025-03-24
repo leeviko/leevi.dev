@@ -1,6 +1,5 @@
 import styles from '@/styles/About.module.css';
 import Image from 'next/image';
-import Link from 'next/link';
 
 const About = () => {
   return (
@@ -50,14 +49,6 @@ const About = () => {
           />
           <span>LinkedIn</span>
         </a>
-        <Link
-          className={`btn ${styles.cv}`}
-          href="/files/CV.pdf"
-          target="_blank"
-          download
-        >
-          <span>CV</span>
-        </Link>
       </div>
     </section>
   );
