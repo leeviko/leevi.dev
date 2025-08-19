@@ -29,11 +29,23 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: '[Linkerr]',
-    desc: '[Kehitysvaiheessa]',
+    title: 'RecallAI',
+    desc: `[ WIP ] Käyttäjät voivat generoida muistikortteja käyttäen apuna tekoälyä. 
+           Sovellus hyödyntää OpenAI:n API:a.`,
+    year: '????',
+    image: '/images/recallai.png',
+    tags: ['Next.js', 'TypeScript', 'Prisma'],
+  },
+  {
+    title: 'Linkerr',
+    desc: `[ WIP ] Full stack -sovellus, 
+           jossa käyttäjät voivat uploadata kuvia esim. 
+           omasta setupistaan ja merkitä niihin tuotteita. Käyttäjät voivat sitten
+           selata ja etsiä näitä kuvia sekä tuotteita.`,
     year: '????',
     image: '/images/linkerr.png',
     tags: ['Next.js', 'TypeScript', 'Prisma'],
+    github: 'https://github.com/leeviko/linkerr',
   },
   {
     title: 'Planit - Task management app',
