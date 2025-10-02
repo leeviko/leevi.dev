@@ -29,17 +29,30 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: 'RecallAI',
-    desc: `[ WIP ] Käyttäjät voivat generoida muistikortteja käyttäen apuna tekoälyä. 
+    title: 'FridgeGoblin',
+    desc: `[ WIP ] Full stack -sovellus, 
+           jossa käyttäjät voivat kysyä AI:lta reseptejä, ja tallentaa niitä, 
+           sekä selata muiden käyttäjien tallentamia reseptejä.
            Sovellus hyödyntää OpenAI:n API:a.`,
-    year: '????',
+    year: '2025',
+    image: '/images/fridgegoblin.png',
+    tags: ['React', 'Express', 'TypeScript', 'Prisma'],
+    // github: 'https://github.com/leeviko/fridgegoblin',
+  },
+  {
+    title: 'RecallAI - Muistikorttigeneraattori',
+    desc: `[ WIP ] Käyttäjät voivat generoida muistikortteja käyttäen apuna tekoälyä.
+           Sovellus hyödyntää OpenAI:n API:a. Projekti pyörii omalla VPS:llä Dockeria hyödyntäen.`,
+    year: '2025',
     image: '/images/recallai.png',
-    tags: ['Next.js', 'TypeScript', 'Prisma'],
+    tags: ['Next.js', 'TypeScript', 'Prisma', 'Docker'],
+    site: 'https://recall.leevi.dev',
+    github: 'https://github.com/leeviko/recallai',
   },
   {
     title: 'Linkerr',
-    desc: `[ WIP ] Full stack -sovellus, 
-           jossa käyttäjät voivat uploadata kuvia esim. 
+    desc: `[ PAUSED ] Full stack -sovellus,
+           jossa käyttäjät voivat uploadata kuvia esim.
            omasta setupistaan ja merkitä niihin tuotteita. Käyttäjät voivat sitten
            selata ja etsiä näitä kuvia sekä tuotteita.`,
     year: '????',
@@ -49,9 +62,9 @@ export const projects: Project[] = [
   },
   {
     title: 'Planit - Task management app',
-    desc: `Trellon tapainen sivusto, jossa käyttäjät voivat luoda ja 
-           hallita tehtävätauluja, kortteja ja listoja.
-           Projekti hostattu VPS:ssä Dockeria käyttäen.`,
+    desc: `Trellon kaltainen web-sovellus, 
+           jossa käyttäjät voivat luoda ja hallita tehtävätauluja, 
+           kortteja ja listoja. Projekti pyörii omalla VPS:llä Dockerin kautta.`,
     year: '2024',
     image: '/images/planit.png',
     tags: ['React', 'Redux', 'TypeScript', 'Express', 'Docker', 'Nginx'],
