@@ -27,7 +27,7 @@ export type Project = {
   site?: string;
 };
 
-export const projects: Project[] = [
+export const webProjects: Project[] = [
   {
     title: 'FridgeGoblin',
     desc: `[ WIP ] Full stack -sovellus, 
@@ -90,5 +90,16 @@ export const projects: Project[] = [
     image: '/images/blog.png',
     tags: ['React', 'Redux', 'TypeScript', 'Docker', 'Nginx'],
     github: 'https://github.com/leeviko/blog.leevi.dev',
+  },
+];
+
+export const otherProjects: Project[] = [
+  {
+    title: 'Breakout',
+    desc: 'Klassinen Breakout peli tehty C++:lla ja OpenGL:llä.',
+    image: '/images/breakout.png',
+    tags: ['C++', 'OpenGL'],
+    year: '2023',
+    github: 'https://github.com/leeviko/breakout',
   },
 ];
