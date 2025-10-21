@@ -29,17 +29,6 @@ export type Project = {
 
 export const webProjects: Project[] = [
   {
-    title: 'FridgeGoblin',
-    desc: `[ WIP ] Full stack -sovellus, 
-           jossa käyttäjät voivat kysyä AI:lta reseptejä, ja tallentaa niitä, 
-           sekä selata muiden käyttäjien tallentamia reseptejä.
-           Sovellus hyödyntää OpenAI:n API:a.`,
-    year: '2025',
-    image: '/images/fridgegoblin.png',
-    tags: ['React', 'Express', 'TypeScript', 'Prisma'],
-    // github: 'https://github.com/leeviko/fridgegoblin',
-  },
-  {
     title: 'RecallAI - Muistikorttigeneraattori',
     desc: `[ WIP ] Käyttäjät voivat generoida muistikortteja käyttäen apuna tekoälyä.
            Sovellus hyödyntää OpenAI:n API:a. Projekti pyörii omalla VPS:llä Dockeria hyödyntäen.`,
@@ -50,15 +39,15 @@ export const webProjects: Project[] = [
     github: 'https://github.com/leeviko/recallai',
   },
   {
-    title: 'Linkerr',
-    desc: `[ PAUSED ] Full stack -sovellus,
-           jossa käyttäjät voivat uploadata kuvia esim.
-           omasta setupistaan ja merkitä niihin tuotteita. Käyttäjät voivat sitten
-           selata ja etsiä näitä kuvia sekä tuotteita.`,
-    year: '????',
-    image: '/images/linkerr.png',
-    tags: ['Next.js', 'TypeScript', 'Prisma'],
-    github: 'https://github.com/leeviko/linkerr',
+    title: 'FridgeGoblin',
+    desc: `[ WIP ] Full stack -sovellus, 
+           jossa käyttäjät voivat kysyä AI:lta reseptejä, ja tallentaa niitä, 
+           sekä selata muiden käyttäjien tallentamia reseptejä.
+           Sovellus hyödyntää OpenAI:n API:a.`,
+    year: '2025',
+    image: '/images/fridgegoblin.png',
+    tags: ['React', 'Express', 'TypeScript', 'Prisma'],
+    github: 'https://github.com/leeviko/fridgegoblin',
   },
   {
     title: 'Planit - Task management app',
@@ -70,6 +59,17 @@ export const webProjects: Project[] = [
     tags: ['React', 'Redux', 'TypeScript', 'Express', 'Docker', 'Nginx'],
     github: 'https://github.com/leeviko/planit',
     site: 'https://planit.leevi.dev',
+  },
+  {
+    title: 'Linkerr',
+    desc: `[ PAUSED ] Full stack -sovellus,
+           jossa käyttäjät voivat uploadata kuvia esim.
+           omasta setupistaan ja merkitä niihin tuotteita. Käyttäjät voivat sitten
+           selata ja etsiä näitä kuvia sekä tuotteita.`,
+    year: '????',
+    image: '/images/linkerr.png',
+    tags: ['Next.js', 'TypeScript', 'Prisma'],
+    github: 'https://github.com/leeviko/linkerr',
   },
   {
     title: 'Quizitor - quiz app',
