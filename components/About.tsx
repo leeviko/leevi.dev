@@ -13,8 +13,9 @@ const About = () => {
       </div>
       <div className={styles.textContainer}>
         <p className={styles.text}>
-          Matkani ohjelmoinnin maailmassa alkoi vuonna 2019, kun vahingossa 
-          törmäsin Youtube tutoriaaliin. Siitä lähtien olen syventynyt alaan intohimoisesti,
+          Matkani ohjelmoinnin maailmassa alkoi vuonna 2019, kun sattumalta 
+          törmäsin Youtube tutoriaaliin, jonka aiheena oli oman nettisivun teko. 
+          Siitä lähtien olen syventynyt alaan intohimoisesti,
           kehittäen taitojani jatkuvasti ja kokeillen uusia teknologioita. Full Stack -kehitys on minulle
           erityisen kiehtovaa, koska se mahdollistaa sovellusten luomisen kokonaisvaltaisesti ja näen, 
           miten omat ideani muuttuvat toimiviksi ratkaisuiksi.
