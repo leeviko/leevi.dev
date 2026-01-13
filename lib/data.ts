@@ -30,17 +30,17 @@ export type Project = {
 export const webProjects: Project[] = [
   {
     title: 'RecallAI - Muistikorttigeneraattori',
-    desc: `[ WIP ] Käyttäjät voivat generoida muistikortteja käyttäen apuna tekoälyä.
+    desc: `Käyttäjät voivat generoida muistikortteja käyttäen apuna tekoälyä.
            Sovellus hyödyntää OpenAI:n API:a. Projekti pyörii omalla VPS:llä Dockeria hyödyntäen.`,
     year: '2025',
     image: '/images/recallai.png',
     tags: ['Next.js', 'TypeScript', 'Prisma', 'Docker'],
-    site: 'https://recall.leevi.dev',
+    // site: 'https://recall.leevi.dev',
     github: 'https://github.com/leeviko/recallai',
   },
   {
     title: 'FridgeGoblin',
-    desc: `[ WIP ] Full stack -sovellus, 
+    desc: `Full stack -sovellus, 
            jossa käyttäjät voivat kysyä AI:lta reseptejä, ja tallentaa niitä, 
            sekä selata muiden käyttäjien tallentamia reseptejä.
            Sovellus hyödyntää OpenAI:n API:a.`,
@@ -58,7 +58,7 @@ export const webProjects: Project[] = [
     image: '/images/planit.png',
     tags: ['React', 'Redux', 'TypeScript', 'Express', 'Docker', 'Nginx'],
     github: 'https://github.com/leeviko/planit',
-    site: 'https://planit.leevi.dev',
+    // site: 'https://planit.leevi.dev',
   },
   {
     title: 'Linkerr',
