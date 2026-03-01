@@ -3,6 +3,7 @@ export const frontend = ['React', 'Redux', 'Next.js', 'TypeScript', 'HTML/CSS'];
 export const backend = [
   'Node.js',
   'Express',
+  'Fastify',
   'Prisma',
   'PostgreSQL',
   'TypeORM',
@@ -31,17 +32,24 @@ export const webProjects: Project[] = [
   {
     title: 'RecallAI - Muistikorttigeneraattori',
     desc: `Käyttäjät voivat generoida muistikortteja käyttäen apuna tekoälyä.
-           Sovellus hyödyntää OpenAI:n API:a. Projekti pyörii omalla VPS:llä Dockeria hyödyntäen.`,
+           Sovellus hyödyntää OpenAI:n API:a.`,
     year: '2025',
     image: '/images/recallai.png',
     tags: ['Next.js', 'TypeScript', 'Prisma', 'Docker'],
-    // site: 'https://recall.leevi.dev',
     github: 'https://github.com/leeviko/recallai',
   },
   {
-    title: 'FridgeGoblin',
-    desc: `Full stack -sovellus, 
-           jossa käyttäjät voivat kysyä AI:lta reseptejä, ja tallentaa niitä, 
+    title: 'URL Shortener',
+    desc: `Yksinkertainen linkkien lyhentäjä, joka on rakennettu Fastifyllä ja Reactilla.`,
+    year: '2026',
+    image: '/images/301to.png',
+    tags: ['Fastify', 'TypeScript', 'React', 'Docker'],
+    github: 'https://github.com/leeviko/url_shortener',
+    site: 'https://301to.cc',
+  },
+  {
+    title: 'FridgeGoblin - Reseptigeneraattori',
+    desc: `Käyttäjät voivat kysyä AI:lta ruokareseptejä, ja tallentaa niitä, 
            sekä selata muiden käyttäjien tallentamia reseptejä.
            Sovellus hyödyntää OpenAI:n API:a.`,
     year: '2025',
@@ -58,11 +66,11 @@ export const webProjects: Project[] = [
     image: '/images/planit.png',
     tags: ['React', 'Redux', 'TypeScript', 'Express', 'Docker', 'Nginx'],
     github: 'https://github.com/leeviko/planit',
-    // site: 'https://planit.leevi.dev',
   },
+
   {
     title: 'Linkerr',
-    desc: `[ PAUSED ] Full stack -sovellus,
+    desc: `Full stack -sovellus,
            jossa käyttäjät voivat uploadata kuvia esim.
            omasta setupistaan ja merkitä niihin tuotteita. Käyttäjät voivat sitten
            selata ja etsiä näitä kuvia sekä tuotteita.`,
@@ -70,16 +78,6 @@ export const webProjects: Project[] = [
     image: '/images/linkerr.png',
     tags: ['Next.js', 'TypeScript', 'Prisma'],
     github: 'https://github.com/leeviko/linkerr',
-  },
-  {
-    title: 'Quizitor - quiz app',
-    desc: `Käyttäjät voivat luoda ja pelata tietovisoja sekä
-           katsoa muiden käyttäjien tuloksia. 
-           Tavoitteena oli tutustua erilaisiin teknologioihin, kuten tRPC.`,
-    year: '2023',
-    image: '/images/quizitor.png',
-    tags: ['Next.js', 'TypeScript', 'tRPC', 'Prisma'],
-    github: 'https://github.com/leeviko/quizitor',
   },
   {
     title: 'Blog',
